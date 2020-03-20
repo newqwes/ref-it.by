@@ -1,3 +1,21 @@
-@import "base/base";
+//@import "../node_modules/normalize-scss/sass/normalize";
+@import "base/normalize";
+
+//abstracts
 @import "abstracts/constants";
-@import "base/_typography";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+@import "abstracts/mixins";
+
+//base
+@import "base/typography";
+@import "base/base";
+@import "base/buttons";
+
+//layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
+//components
+@import "components/promo";
+@import "components/navigation";

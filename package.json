@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/newqwes/ref-it.by/issues"
   },
-  "homepage": "https://github.com/newqwes/ref-it.by#readme"
+  "homepage": "https://github.com/newqwes/ref-it.by#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
