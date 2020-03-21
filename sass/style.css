@@ -345,8 +345,21 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.navigation__link, .button {
+.navigation__link, .button, .logo {
   transition: all 0.3s ease-out;
+}
+
+.logo {
+  background-image: url(../../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+  opacity: 0.9;
+}
+.logo:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 @font-face {
