@@ -1,7 +1,7 @@
 .button {
     font-family: 'Open Sans', Verdana, sans-serif;
-    padding: 11px 25px 13px;
-    @include font (1.6rem, $height: 2.2rem, $weight: normal);
+    padding: 10px 20px;
+    @include font (1.6rem, $height: 2.2rem);
     border-radius: 4px;
     cursor: pointer;
     @extend %transition;
@@ -11,8 +11,7 @@
     border: 1px solid $color-border;
     color: $color-text;    
     &:hover {
-        color: $color-light;
-        background: $color-hovered;
-        background-color: $color-hovered;
+        border: 1px solid $color-additional;
+        color: $color-additional;
     }
 }

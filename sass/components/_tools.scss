@@ -1,0 +1,36 @@
+.tools__wrapper {
+    padding: 40px 0 100px 0;
+}
+
+.tools__title {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0 80px 0;
+}
+
+.tool__description {
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.tool__text {
+    @include font (1.4rem, 2rem, normal);
+    text-align: justify;
+}
+
+.tool {
+    cursor: pointer;
+    opacity: 0.8;
+    @extend %transition;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    text-align: center;
+    &:hover {
+        background-color: $color-light;
+        opacity: 1;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2); 
+    }
+}

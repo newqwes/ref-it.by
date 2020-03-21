@@ -1,0 +1,40 @@
+.icon-100 {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icon-square {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+}
+
+.icon-security {
+    background-image: url(../../img/tools/security.png);
+}
+.icon-approach {
+    background-image: url(../../img/tools/approach.png);
+}
+.icon-free {
+    background-image: url(../../img/tools/free.png);
+}
+.icon-repairs {
+    background-image: url(../../img/tools/repairs.png);
+}
+
+.icon-game {
+    background-image: url(../../img/promo/game.png);
+}
+.icon-notebook {
+    background-image: url(../../img/promo/notebook.png);
+}
+.icon-phone {
+    background-image: url(../../img/promo/phone.png);
+}
+.icon-TV {
+    background-image: url(../../img/promo/TV.png);
+}
