@@ -28,13 +28,18 @@
 
 .icon-game {
     background-image: url(../../img/promo/game.png);
+    @extend %filter;
+    
 }
 .icon-notebook {
     background-image: url(../../img/promo/notebook.png);
+    @extend %filter;
 }
 .icon-phone {
     background-image: url(../../img/promo/phone.png);
+    @extend %filter;
 }
 .icon-TV {
     background-image: url(../../img/promo/TV.png);
+    @extend %filter;
 }

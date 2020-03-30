@@ -1,6 +1,8 @@
 .promo {
-    padding: 100px 0 100px 0;
+    padding: 60px 0 97px 0;
     background-image: url("../../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     color: $color-light;
 }
 .promo__wrapper {
@@ -15,8 +17,4 @@ letter-spacing: 0.2rem;
 
 .promo__icons {
     opacity: 0.8;
-}
-
-.promo__icon {
-
 }
