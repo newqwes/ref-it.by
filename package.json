@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "style": "sass --watch sass/style.scss sass/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/newqwes/ref-it.by/issues"
   },
-  "homepage": "https://github.com/newqwes/ref-it.by#readme",
-  "dependencies": {
-    "normalize-scss": "^7.0.1"
-  }
+  "homepage": "https://github.com/newqwes/ref-it.by#readme"
 }
